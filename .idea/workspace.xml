@@ -27,27 +27,27 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="442">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="408">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tetris.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tetris.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/tetris.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1105">
+            <state vertical-scroll-proportion="0.19036955" vertical-offset="51" max-vertical-offset="1105">
               <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="engine.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="engine.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/engine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35274357" vertical-offset="1844" max-vertical-offset="3315">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3315">
               <caret line="127" column="56" selection-start-line="127" selection-start-column="56" selection-end-line="127" selection-end-column="56" />
               <folding />
             </state>
@@ -57,7 +57,7 @@
       <file leaf-file-name="shape.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/shape.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="1989">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1989">
               <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
               <folding />
             </state>
@@ -336,6 +336,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="408">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/view-pixi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
@@ -352,34 +368,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/engine.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="442">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1844" max-vertical-offset="3315">
+          <caret line="127" column="56" selection-start-line="127" selection-start-column="56" selection-end-line="127" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/tetris.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1105">
+        <state vertical-scroll-proportion="0.19036955" vertical-offset="51" max-vertical-offset="1105">
           <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/view-pixi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/engine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35274357" vertical-offset="1844" max-vertical-offset="3315">
-          <caret line="127" column="56" selection-start-line="127" selection-start-column="56" selection-end-line="127" selection-end-column="56" />
           <folding />
         </state>
       </provider>
