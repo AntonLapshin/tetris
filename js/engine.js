@@ -94,26 +94,27 @@
             setTimeout(step, Tetris.options.delay);
         };
 
-        var shiftArea = function () {
-            for (var y = area.length - 2; y >= 0; y--) {
+        var shiftArea = function (start) {
+            for (var y = start - 1; y >= 0; y--) {
                 for (var x = 0; x < Tetris.options.width; x++) {
                     area[y + 1][x] = area[y][x];
                 }
             }
         };
 
-        var removeLine = function () {
-            var y = area.length - 1;
-            var isAllFilled = true;
-            for (var x = 0; x < Tetris.options.width; x++) {
-                if (area[y][x] == 0) {
-                    isAllFilled = false;
-                    break;
+        var removeLine = function (start) {
+            for(var y = start || area.length - 1; y >= 0; y--){
+                var isAllFilled = true;
+                for (var x = 0; x < Tetris.options.width; x++) {
+                    if (area[y][x] == 0) {
+                        isAllFilled = false;
+                        break;
+                    }
                 }
-            }
-            if (isAllFilled) {
-                shiftArea();
-                removeLine();
+                if (isAllFilled) {
+                    shiftArea(y);
+                    y++;
+                }
             }
         };
 
