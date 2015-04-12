@@ -5,12 +5,17 @@
     <title></title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <script src="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.9/pixi.js"></script>
-    <script src="js/tetris-engine.js"></script>
-    <script src="js/tetris-pixi.js"></script>
+    <script src="js/tetris.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/shape.js"></script>
+    <script src="js/view-pixi.js"></script>
 </head>
 <body>
 <div id="tetris"></div>
 <div id="tetris2"></div>
-<script src="js/scene.js"></script>
+<script>
+    new Tetris.Game('#tetris').start();
+//    new Tetris.Game('#tetris2').start();
+</script>
 </body>
 </html>
