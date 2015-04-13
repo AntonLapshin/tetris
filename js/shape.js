@@ -107,6 +107,5 @@
             stateNew.pos.y += y;
         };
 
-        return this;
     };
 })();

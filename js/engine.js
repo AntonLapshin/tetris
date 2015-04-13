@@ -7,6 +7,7 @@
     };
 
     Tetris.Engine = function () {
+
         var area,
             activeShape,
             handlers = {};
@@ -73,6 +74,7 @@
                     y = 0;
                 activeShape = new Tetris.Shape(form, x, y);
                 if (checkCollisions()) {
+                    activeShape = null;
                     fire('gameover');
                     return;
                 }

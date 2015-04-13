@@ -1,6 +1,7 @@
 (function () {
 
     window.Tetris = {
+
         options: {
             width: 10,
             height: 16,
